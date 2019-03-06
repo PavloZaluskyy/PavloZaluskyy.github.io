@@ -1,7 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(../img/bg2.jpg);
+  background: url(../img/bg2.jpg) no-repeat;
+  background-size: 130%;
   
 }
 @media(min-width: 980px) and (max-width: 1199px) {body {
