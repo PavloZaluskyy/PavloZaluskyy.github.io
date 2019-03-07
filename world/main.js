@@ -192,6 +192,296 @@ new Vue({
 					word: 'Both',
 					translate: 'Обидва'
 				},
+				{
+					id: 38,
+					word: 'Clothes',
+					translate: 'Одяг'
+				},
+				{
+					id: 39,
+					word: 'Cap',
+					translate: 'Кепка'
+				},
+				{
+					id: 40,
+					word: 'Hat',
+					translate: 'Капелюх'
+				},
+				{
+					id: 41,
+					word: 'Coat',
+					translate: 'Пальто'
+				},
+				{
+					id: 42,
+					word: 'Raincoat',
+					translate: 'Плащ'
+				},
+				{
+					id: 43,
+					word: 'Fur coat',
+					translate: 'Шуба'
+				},
+				{
+					id: 44,
+					word: 'Pullover',
+					translate: 'Пуловер'
+				},
+				{
+					id: 45,
+					word: 'Sweater',
+					translate: 'Светер'
+				},
+				{
+					id: 46,
+					word: 'Jumper',
+					translate: 'Джампер'
+				},
+				{
+					id: 47,
+					word: 'Suit',
+					translate: 'Костюм'
+				},
+				{
+					id: 48,
+					word: 'Jacket',
+					translate: 'Піджак'
+				},
+				{
+					id: 49,
+					word: 'Shirt',
+					translate: 'Сорочка'
+				},
+				{
+					id: 50,
+					word: 'Blouse',
+					translate: 'Блузка'
+				},
+				{
+					id: 51,
+					word: 'T-shirt',
+					translate: 'Футболка'
+				},
+				{
+					id: 52,
+					word: 'Waistcoat',
+					translate: 'Жилет'
+				},
+				{
+					id: 53,
+					word: 'Dress',
+					translate: 'Сукня'
+				},
+				{
+					id: 54,
+					word: 'Skirt',
+					translate: 'Спідниця'
+				},
+				{
+					id: 55,
+					word: 'Pocket',
+					translate: 'Кишеня'
+				},
+				{
+					id: 56,
+					word: 'Sleeve',
+					translate: 'Рукав'
+				},
+				{
+					id: 57,
+					word: 'Collar',
+					translate: 'Комір'
+				},
+				{
+					id: 58,
+					word: 'Thousers',
+					translate: 'Штани'
+				},
+				{
+					id: 59,
+					word: 'Pants',
+					translate: 'Брюки'
+				},
+				{
+					id: 60,
+					word: 'Jeans',
+					translate: 'Джинси'
+				},
+				{
+					id: 61,
+					word: 'Shorts',
+					translate: 'Шорти'
+				},
+				{
+					id: 62,
+					word: 'Footwear',
+					translate: 'Взуття'
+				},
+				{
+					id: 63,
+					word: 'Shoes',
+					translate: 'Туфлі'
+				},
+				{
+					id: 64,
+					word: 'Boots',
+					translate: 'Чоботи'
+				},
+				{
+					id: 65,
+					word: 'Trainers',
+					translate: 'Кросівки'
+				},
+				{
+					id: 66,
+					word: 'Sneakers',
+					translate: 'Кеди'
+				},
+				{
+					id: 67,
+					word: 'Sandals',
+					translate: 'Сандалі'
+				},
+				{
+					id: 68,
+					word: 'High-heels',
+					translate: 'Туфлі на високих підборах'
+				},
+				{
+					id: 69,
+					word: 'Slippers',
+					translate: 'Шльопанці'
+				},
+				{
+					id: 70,
+					word: 'Belt',
+					translate: 'Пояс'
+				},
+				{
+					id: 71,
+					word: 'Tights',
+					translate: 'Колготи'
+				},
+				{
+					id: 72,
+					word: 'Shoes',
+					translate: 'Шкарпетки'
+				},
+				{
+					id: 73,
+					word: 'Underwear',
+					translate: 'Нижня білизна'
+				},
+				{
+					id: 74,
+					word: 'Nightdress',
+					translate: 'Нічна сорочка'
+				},
+				{
+					id: 75,
+					word: 'Pyjamas',
+					translate: 'Піжама'
+				},
+				{
+					id: 76,
+					word: 'Panties',
+					translate: 'Труси жіночі'
+				},
+				{
+					id: 77,
+					word: 'Bra',
+					translate: 'Бюстгальтер'
+				},
+				{
+					id: 78,
+					word: 'Swimming trunks',
+					translate: 'Плавки'
+				},
+				{
+					id: 79,
+					word: 'Swimming suit',
+					translate: 'Купальник'
+				},
+				{
+					id: 80,
+					word: 'Accessories',
+					translate: 'Аксесуари'
+				},
+				{
+					id: 81,
+					word: 'Glasses',
+					translate: 'Окуляри'
+				},
+				{
+					id: 82,
+					word: 'Sunglasses',
+					translate: 'Окуляри від сонця'
+				},
+				{
+					id: 83,
+					word: 'Tie',
+					translate: 'Краватка'
+				},
+				{
+					id: 84,
+					word: 'Scarf',
+					translate: 'Шарф'
+				},
+				{
+					id: 85,
+					word: 'Gloves',
+					translate: 'Рукавиці'
+				},
+				{
+					id: 86,
+					word: 'Lace',
+					translate: 'Шнурівка для взуття'
+				},
+				{
+					id: 87,
+					word: 'Handkerchief',
+					translate: 'Хустинка'
+				},
+				{
+					id: 88,
+					word: 'Handbag',
+					translate: 'Сумочка'
+				},
+				{
+					id: 89,
+					word: 'Ring',
+					translate: 'Перстень'
+				},
+				{
+					id: 90,
+					word: 'Earring',
+					translate: 'Сережка'
+				},
+				{
+					id: 91,
+					word: 'Bracelet',
+					translate: 'Браслет'
+				},
+				{
+					id: 92,
+					word: 'Necklace',
+					translate: 'Намисто'
+				},
+				{
+					id: 93,
+					word: 'Purse',
+					translate: 'Гаманець'
+				},
+				{
+					id: 94,
+					word: 'Wallet',
+					translate: 'Клатч'
+				},
+				{
+					id: 95,
+					word: 'Brooch',
+					translate: 'Брошка'
+				},
 			]
 		
 
