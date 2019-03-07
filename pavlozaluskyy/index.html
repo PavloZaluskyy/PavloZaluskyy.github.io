@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pavlo Zaluskyy</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/jquery.circliful.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/my-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="ups"></div>
+<header class="slide_1">
+	<!--<div class="menu-countainer1">-->
+		<div class="">
+			<div class="item" id="positions">
+	          <button class="cmn-toggle-switch cmn-toggle-switch__htx menu_mobile">
+	            <span>toggle menu</span>
+	          </button>
+	    	</div>
+			<div class="menu_mobile_block">
+				<ul>
+						<li> <strong><a href="javascript://0" onclick="slowScroll('#ups')">HOME</a></strong></li>
+						<li> <strong><a href="javascript://1" onclick="slowScroll('#professional')"> PROFESSIONAL</a></strong></li>
+						<li> <strong><a href="javascript://2" onclick="slowScroll('#works')">MY WORKS</a></strong> </li>
+						<li> <strong><a href="javascript://3" onclick="slowScroll('#contacts')"> CONTACTS</a></strong></li>
+				</ul>
+			</div>
+		</div>
+		<div id="menu" class="default ">
+		<div class="menu-countainer">
+			<div class="menu_box">
+				<div class="logo"> 
+					<span id="name_logo">PAVLO ZALUSKYY</span>
+				</div>
+				<div class="menu">
+					<ul>
+						<li> <strong><a href="javascript://0" onclick="slowScroll('#ups')">HOME</a></strong></li>
+						<li> <strong><a href="javascript://1" onclick="slowScroll('#professional')"> PROFESSIONAL</a></strong></li>
+						<li> <strong><a href="javascript://2" onclick="slowScroll('#works')">MY WORKS</a></strong> </li>
+						<li> <strong><a href="javascript://3" onclick="slowScroll('#contacts')"> CONTACTS</a></strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="hea">
+		<div class="countainer header_context">
+			<div class="first_text">
+			<h1 class="title_name"> I<span>`</span>M<br> PAVLO<br> ZALUSKYY <span>.</span></h1></div><br>
+			<div class="second_text">
+			<h2>STUDENT, <br> WEB DEVELOPMENT,<br> SOFTWARE DEVELOPMENT</h2></div>
+		</div>
+	</div>
+</header>
+<div class="slide_2">
+	<div class="countainer">
+		<div class="my_logo">P</div>
+		<br>
+		<div class="resume">
+			My Resume
+		</div>
+	</div>
+</div>
+<div class="slide_3" id="professional">
+	<div class="filter_black">
+		<div class="countainer">
+			<div class="title"><span>01</span> PROFESSIONAL</div>
+			<div class="description">MY KNOWLEDGE LEVEL IN SOFTWARE</div>
+			<div class="countainer_diagram">
+				<div class="row_countainer">
+					<h3> HTML5</h3>
+					<div class="circlestat" data-dimension="200" data-text="87%" data-width="30" data-fontsize="38" data-percent="87" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+				<div class="row_countainer">
+					<h3> CSS3</h3>
+					<div class="circlestat" data-dimension="200" data-text="80%" data-width="30" data-fontsize="38" data-percent="80" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+				<div class="row_countainer">
+					<h3> JAVASCRIPT</h3>
+					<div class="circlestat" data-dimension="200" data-text="75%" data-width="30" data-fontsize="38" data-percent="75" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+				<div class="row_countainer">
+					<h3> PHOTOSHOP</h3>
+					<div class="circlestat" data-dimension="200" data-text="70%" data-width="30" data-fontsize="38" data-percent="70" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+				<div class="row_countainer">
+					<h3> ADAPTIVE</h3>
+					<div class="circlestat" data-dimension="200" data-text="80%" data-width="30" data-fontsize="38" data-percent="80" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+				<div class="row_countainer">
+					<h3> WORDPRESS</h3>
+					<div class="circlestat" data-dimension="200" data-text="70%" data-width="30" data-fontsize="38" data-percent="70" data-fgcolor="#4D5366" data-bgcolor="#eee" data-fill="#ddd"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+</div>
+<div class="slide_4" id="works">
+	<div class="countainer">
+		<div class="title"><span>02</span> MY WORKS</div>
+		<div class="description">MY BEST WORK</div>
+		<div id="ell">
+			<div class="ism-slider" data-play_type="loop" data-interval="3000" id="my-slider">
+  				<ol>
+    				<blog-post
+				    v-for="post in posts"
+				    v-bind:key="post.id"
+				    v-bind:post="post"
+				  ></blog-post>
+    
+  				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="slide_5" id="contacts">
+	<div class="countainer">
+		<div class="title"><span>03</span> MY CONTACTS</div>
+		<div class="description">The data you are contacting with me</div>
+		<div class="top_panel">
+			<div class="left_panel"><a  href="mailto:pavlozaluskiy@gmail.com">
+				
+				<i class="far fa-envelope circle"></i>
+				<span>pavlozaluskiy@gmail.com</span></a>
+			</div>
+			<div class="right_panel">
+				<a  href="tel:+380934341954">
+					<i class="fas fa-phone circle"></i>
+					<span>+380 93 434 19 54</span>
+				</a>
+			</div>
+		</div>
+		
+
+	</div>
+</div>
+<footer>
+	<div class="countainer">
+		<div  class="bottom_panel">
+			<a target="_blank" href="https://t.me/pavlo_zaluskyy"><i class="fab fa-telegram-plane circle"></i></a>
+			<a target="_blank" href="https://www.facebook.com/pavlo.zaluskyy"><i class="fab fa-facebook-f circle"></i></a>
+			<a target="_blank" href="https://github.com/PavloZaluskyy"><i class="fab fa-github circle"></i></a>
+			<a target="_blank" href="pavlo.zaluskyy1"><i class="fab fa-skype circle"></i></a>
+		</div>
+		<div class="footer_menu">
+			<div class="menu">
+				<ul>
+					<li> <strong><a href="javascript://0" onclick="slowScroll('#ups')">HOME</a></strong></li>
+					<li> <strong><a href="javascript://1" onclick="slowScroll('#professional')"> PROFESSIONAL</a></strong></li>
+					<li> <strong><a href="javascript://2" onclick="slowScroll('#works')">MY WORKS</a></strong> </li>
+					<li> <strong><a href="javascript://3" onclick="slowScroll('#contacts')"> CONTACTS</a></strong></li>
+				</ul>
+			</div>
+			<div class="up"><a href="javascript://100" onclick="slowScroll('#ups')"><i class="fas fa-angle-double-up"></i></a></div>
+		</div>
+		<div class="rights">
+	<span >All rights reserved © 2017 - 2019</span></div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="js/all.min.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script src="js/demo.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js">
+</script>
+<script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+<script type="text/javascript" src="js/slider.min.js"></script>
+<script type="text/javascript" src="js/ism-2.2.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('.circlestat').circliful();
+	});
+	</script>
+
+	<script>
+		$(".refreshButton").click(function(event){
+			location.reload(); 
+		});
+	</script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+</body>
+</html>
