@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$('.slide_1').parallax("50%", 0.1);
+	/*$('.slide_1').parallax("50%", 0.1);
 	$('.slide_2').parallax("50%", 0.5);
-	$('.slide_3').parallax("50%", 0.1);
+	$('.slide_3').parallax("50%", 0.1);*/
 
 	var Swidth = document.body.clientWidth;
 	var mobile_menu = true;
