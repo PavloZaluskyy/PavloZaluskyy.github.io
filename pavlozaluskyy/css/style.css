@@ -73,7 +73,7 @@ header {
 	height: 100vh;
 	background: url("../img/intro-bg.jpg")
 	no-repeat fixed;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 
@@ -559,7 +559,7 @@ padding: 10px 25px;
 	height: auto;
 	min-height: 100vh; 
 	background: url("../img/035244_9f46dd7c6e524eef94172c670fff1913_mv2_d_1920_1343_s_2.webp") no-repeat fixed;
-	background-size: cover;
+	background-size: 150%;
 	z-index: 1;
 }
 .filter_black{
