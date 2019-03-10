@@ -7,6 +7,9 @@
 div{
 	display: block;
 }
+@media (max-width: 499px) {.slide_3 {
+ 	background-size: cover;
+ 	} }
 body{
 	width: 100%;
 	height: auto;
