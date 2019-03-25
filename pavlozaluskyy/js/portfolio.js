@@ -8,7 +8,7 @@ new Vue({
 	data: {
 		posts: [
 		{id: 1, url_img:'img/slides/Michelangelo.jpg', url_site: 'https://pavlozaluskyy.github.io/Michelangelo/', title: 'Michelangelo', description: 'Just a site of an architectural company!'},
-		{id: 2, url_img:'img/slides/accnatua.jpg', url_site: 'http://acc.net.ua/', title: 'ACC.NET.UA', description: 'Online store of accessories for smartphones!'},
+		{id: 2, url_img:'img/slides/accnetua.jpg', url_site: 'http://acc.net.ua/', title: 'ACC.NET.UA', description: 'Online store of accessories for smartphones!'},
 		{id: 3, url_img:'img/slides/webSpiders.PNG', url_site: 'https://pavlozaluskyy.github.io/webSpiders/', title: 'Web Spider', description: 'Web site with animation on CSS and JS!'},
 		{id: 4, url_img:'img/slides/pavlozaluskyy.jpg', url_site: 'http://www.pavlozaluskyy.zzz.com.ua/', title: 'Pavlo Zaluskyy', description: 'My first site!'},
 		{id: 5, url_img:'img/slides/1491233764815_501364.png', url_site: 'http://testqwe.zzz.com.ua/', title: 'No Limits', description: 'Website-Landing Ukrainian rock band "NO Limits"'},
