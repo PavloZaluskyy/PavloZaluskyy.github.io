@@ -13,8 +13,7 @@ new Vue({
 		{id: 4, url_img:'img/slides/pavlozaluskyy.jpg', url_site: 'http://www.pavlozaluskyy.zzz.com.ua/', title: 'Pavlo Zaluskyy', description: 'My first site!'},
 		{id: 5, url_img:'img/slides/1491233764815_501364.png', url_site: 'http://testqwe.zzz.com.ua/', title: 'No Limits', description: 'Website-Landing Ukrainian rock band "NO Limits"'},
 		{id: 6, url_img:'img/slides/PortLand.jpg', url_site: 'https://pavlozaluskyy.github.io/Portland/', title: 'PortLand', description: 'Front-end of the page of the online store!'},
-		{id: 7, url_img:'img/slides/world.jpg', url_site: 'https://pavlozaluskyy.github.io/world/', title: 'MyWork', description: 'A simple web-app for learning English!'},
-
+		{id: 7, url_img:'img/slides/world.jpg', url_site: 'https://pavlozaluskyy.github.io/world/', title: 'MyWork', description: 'A simple web-app for learning English!'}
 		]
 	}
 
