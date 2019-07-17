@@ -75,6 +75,9 @@ header {
 	height: 100vh;
 	background: url("../img/intro-bg.jpg")
 	no-repeat fixed;
+	display: flex;
+	flex-wrap: wrap;
+	//align-items: center;
 	background-size: cover;
 }
 
@@ -423,12 +426,20 @@ padding: 10px 25px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	//align-items: center;
 }
+
+@media (max-width: 480px) {#hea{
+	height: 100%;
+	align-items: center;
+ 	} }
+
 .header_context{
 	width: 50%;
 	height: auto;
-	display: flex;
+	/*margin-top: auto;
+	margin-bottom: auto;	
+	/*display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -714,7 +725,19 @@ background: rgb(0, 0, 0, 0.6);}
 	margin-right: 30px;
 	color:  rgb(190, 199, 213);
 }
+.slide_4 .countainer{padding-bottom: 0px;}
+#ell{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 10%; 
+}
 
+@media (max-width: 480px) {#ell{
+ 	margin-left: 0;
+ 	margin-right: 0; 
+ 	width: 100%;
+ 	} }
 
 footer{
 	width: 100%;
