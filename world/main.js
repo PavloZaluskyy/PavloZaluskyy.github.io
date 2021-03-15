@@ -624,7 +624,7 @@ new Vue({
 					id: 124,
 					word: 'Deserv',
 					translate: 'Заслужити'
-				},
+				}
 				
 				
 			]
