@@ -475,13 +475,158 @@ new Vue({
 				{
 					id: 94,
 					word: 'Wallet',
-					translate: 'Клатч'
+					translate: 'Гаманець'
 				},
 				{
 					id: 95,
 					word: 'Brooch',
 					translate: 'Брошка'
 				},
+				{
+					id: 96,
+					word: 'Notice',
+					translate: 'Помічати'
+				},
+				{
+					id: 97,
+					word: 'Absence',
+					translate: 'Відсутність'
+				},
+				{
+					id: 98,
+					word: 'Available',
+					translate: 'Доступний'
+				},
+				{
+					id: 99,
+					word: 'Pass',
+					translate: 'Здавати'
+				},
+				{
+					id: 100,
+					word: 'Impress',
+					translate: 'Вразити'
+				},
+				{
+					id: 101,
+					word: 'Owe',
+					translate: 'Провина'
+				},
+				{
+					id: 102,
+					word: 'Lend',
+					translate: 'Позичити'
+				},
+				{
+					id: 103,
+					word: 'Despite',
+					translate: 'Не дивлячись на'
+				},
+				{
+					id: 104,
+					word: 'Realize',
+					translate: 'Усвідомити'
+				},
+				{
+					id: 105,
+					word: 'Necessary',
+					translate: 'Необхідний'
+				},
+				{
+					id: 106,
+					word: 'Point',
+					translate: 'Вказати'
+				},
+				{
+					id: 107,
+					word: 'Attitude',
+					translate: 'Відносини'
+				},
+				{
+					id: 108,
+					word: 'Insist',
+					translate: 'Наполягати'
+				},
+				{
+					id: 109,
+					word: 'Laugh',
+					translate: 'Сміятися'
+				},
+				{
+					id: 110,
+					word: 'Fence',
+					translate: 'Паркан'
+				},
+				{
+					id: 111,
+					word: 'Deliver',
+					translate: 'Доставляти'
+				},
+				{
+					id: 112,
+					word: 'Introduce someone to someone',
+					translate: 'Представляти когось комусь'
+				},
+				{
+					id: 113,
+					word: 'Consider',
+					translate: 'Pозглядати, враховувати'
+				},
+				{
+					id: 114,
+					word: 'Expect',
+					translate: 'Oчікувати'
+				},
+				{
+					id: 115,
+					word: 'Thoroughly',
+					translate: 'Детальніше'
+				},
+				{
+					id: 116,
+					word: 'Deny',
+					translate: 'Заперечувати'
+				},
+				{
+					id: 117,
+					word: 'Interrupt',
+					translate: 'Перебивати'
+				},{
+					id: 118,
+					word: 'Influence',
+					translate: 'Впливати'
+				},{
+					id: 119,
+					word: 'Prepare',
+					translate: 'Готуватися до чогось'
+				},
+				{
+					id: 120,
+					word: 'Earn',
+					translate: 'Заробляти'
+				},
+				{
+					id: 121,
+					word: 'Devote',
+					translate: 'Приділити'
+				},
+				{
+					id: 122,
+					word: 'Invite',
+					translate: 'Запрошувати'
+				},
+				{
+					id: 123,
+					word: 'Sudeenly',
+					translate: 'Pаптом'
+				},
+				{
+					id: 124,
+					word: 'Deserv',
+					translate: 'Заслужити'
+				},
+				
+				
 			]
 		
 
